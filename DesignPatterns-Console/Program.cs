@@ -11,5 +11,12 @@ Document.Run();*/
 
 //Singleton
 using DesignPatterns_Console.Singleton;
-Console.WriteLine("===SINGLETON PATTERN===");
+/*Console.WriteLine("===SINGLETON PATTERN===");
 Client.Run();
+Console.WriteLine("------------------------------------");*/
+//AbstractMethod
+using DesignPatterns_Console.AbstractMethod.Infrastructure;
+using DesignPatterns_Console.AbstractMethod.Client;
+Console.WriteLine("===ABSTRACT METHOD PATTERN===");
+var app = AppBootstrapper.Initialize();
+app.Run();

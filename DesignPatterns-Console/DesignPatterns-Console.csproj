@@ -8,4 +8,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="AbstractMethod\Infrastructure\config.txt" />
+      <EditorConfigFiles Include="AbstractMethod\Infrastructure\config.txt" />
+    </ItemGroup>
+
 </Project>
