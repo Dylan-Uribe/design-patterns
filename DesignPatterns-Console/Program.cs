@@ -17,6 +17,11 @@ Console.WriteLine("------------------------------------");*/
 //AbstractMethod
 using DesignPatterns_Console.AbstractMethod.Infrastructure;
 using DesignPatterns_Console.AbstractMethod.Client;
-Console.WriteLine("===ABSTRACT METHOD PATTERN===");
+/*Console.WriteLine("===ABSTRACT METHOD PATTERN===");
 var app = AppBootstrapper.Initialize();
-app.Run();
+app.Run();*/
+
+//BuilderMethod
+using DesignPatterns_Console.BuilderMethod.Client;
+Console.WriteLine("===BUILDER METHOD PATTERN===");
+ReportClient.Run();
