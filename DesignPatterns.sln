@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns-Console", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational", "Creational\Creational.csproj", "{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structual", "Structual\Structual.csproj", "{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
