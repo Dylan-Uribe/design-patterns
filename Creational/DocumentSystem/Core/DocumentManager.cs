@@ -3,7 +3,7 @@
 public class DocumentManager
 {
     private static DocumentManager _instance;
-    private static DocumentManager Instance => _instance ??= new DocumentManager();
+    public static DocumentManager Instance => _instance ??= new DocumentManager();
     
     private readonly List<IDocument> _documents = new();
     

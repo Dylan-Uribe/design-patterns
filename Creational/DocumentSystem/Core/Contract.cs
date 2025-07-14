@@ -3,7 +3,7 @@
 public class Contract : IDocument
 {
     public string Title { get; set; }
-    public List<string> Clauses { get; set; }
+    public List<string> Clauses { get; set; } = new();
 
     public void AddClause(string clause)
     {
