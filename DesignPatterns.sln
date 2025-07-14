@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns-Console", "DesignPatterns-Console\DesignPatterns-Console.csproj", "{4AEFE654-EC20-4639-B0D2-635EB7633872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational", "Creational\Creational.csproj", "{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394DF0EC-24C7-4B00-9DFD-A5EF16956FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
