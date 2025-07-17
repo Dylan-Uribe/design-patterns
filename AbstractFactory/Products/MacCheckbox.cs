@@ -1,4 +1,4 @@
-﻿namespace AbstractMethod.Products;
+﻿namespace AbstractFactory.Products;
 
 public class MacCheckbox : ICheckbox
 {

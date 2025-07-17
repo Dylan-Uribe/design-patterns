@@ -1,6 +1,6 @@
-﻿using AbstractMethod.Products;
+﻿using AbstractFactory.Products;
 
-namespace AbstractMethod.Factories;
+namespace AbstractFactory.Factories;
 
 public class MacFactory : IGUIFactory
 {

@@ -1,6 +1,6 @@
-﻿using AbstractMethod.Factories;
+﻿using AbstractFactory.Factories;
 
-namespace AbstractMethod.Infrastructure;
+namespace AbstractFactory.Infrastructure;
 
 public static class FactoryResolver
 {

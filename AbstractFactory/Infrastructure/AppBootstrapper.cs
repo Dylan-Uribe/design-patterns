@@ -1,6 +1,6 @@
-﻿using AbstractMethod.Client;
+﻿using AbstractFactory.Client;
 
-namespace AbstractMethod.Infrastructure;
+namespace AbstractFactory.Infrastructure;
 
 public static class AppBootstrapper
 {

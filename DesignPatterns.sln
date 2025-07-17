@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{311203CA-95D1-40D0-9BC8-5BA83AB5D17A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Method", "Abstract Method", "{8F0BDC81-6BA3-4664-B506-2B3C2612F00E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Factory", "Abstract Factory", "{8F0BDC81-6BA3-4664-B506-2B3C2612F00E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractMethod", "AbstractMethod\AbstractMethod.csproj", "{7AE2229F-4516-49DD-832E-09F8245FC776}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{7AE2229F-4516-49DD-832E-09F8245FC776}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{2E26A533-0EFB-464D-A667-FCFFD85EFDD2}"
 EndProject

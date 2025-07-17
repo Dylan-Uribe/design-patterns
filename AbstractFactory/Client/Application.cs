@@ -1,7 +1,7 @@
-﻿using AbstractMethod.Factories;
-using AbstractMethod.Products;
+﻿using AbstractFactory.Factories;
+using AbstractFactory.Products;
 
-namespace AbstractMethod.Client;
+namespace AbstractFactory.Client;
 
 public class Application
 {
