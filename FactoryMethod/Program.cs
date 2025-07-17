@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using FactoryMethod.DocumentationSystem.Client;
+using FactoryMethod.NotificationSystem.Client;
+using FactoryMethod.VehicleSystem.Client;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("===FACTORY METHOD PATTERN===");
+Notification.Run();
+Console.WriteLine("------------------------------------");
+Vehicle.Run();
+Console.WriteLine("------------------------------------");
+Document.Run();
