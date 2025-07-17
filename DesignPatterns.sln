@@ -1,14 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns-Console", "DesignPatterns-Console\DesignPatterns-Console.csproj", "{4AEFE654-EC20-4639-B0D2-635EB7633872}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural", "Structural\Structural.csproj", "{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{6574DE9A-FB41-4638-947F-D6B5F7483BED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentSystem", "DocumentSystem\DocumentSystem.csproj", "{52E8DE05-2412-47A9-A0D1-DF00C8297C58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentSystem", "DocumentSystem", "{D178D362-4809-4C12-AF7C-F128590136EF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document System", "Document System", "{D178D362-4809-4C12-AF7C-F128590136EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{C155C3F1-29C6-4DA5-B959-1991857A4979}"
 EndProject
@@ -32,10 +30,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AEFE654-EC20-4639-B0D2-635EB7633872}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C0CB07E-BA9D-49CE-B27C-E500D72BB473}.Release|Any CPU.ActiveCfg = Release|Any CPU
