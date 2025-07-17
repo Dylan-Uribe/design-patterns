@@ -1,7 +1,7 @@
-﻿using Structural.AdapterPattern.Interfaces;
-using Structural.AdapterPattern.Legacy;
+﻿using Adapter.Interfaces;
+using Adapter.Legacy;
 
-namespace Structural.AdapterPattern.Adapters;
+namespace Adapter.Adapters;
 
 public class LegacyPrinterAdapter(LegacyPrinter legacyPrinter) : IPrinter
 {

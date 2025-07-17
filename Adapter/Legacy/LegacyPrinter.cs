@@ -1,4 +1,4 @@
-﻿namespace Structural.AdapterPattern.Legacy;
+﻿namespace Adapter.Legacy;
 
 public class LegacyPrinter
 {

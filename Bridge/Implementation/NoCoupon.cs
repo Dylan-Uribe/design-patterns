@@ -1,4 +1,4 @@
-﻿namespace Structural.Bridge.Implementation;
+﻿namespace Bridge.Implementation;
 
 public class NoCoupon : ICoupon
 {

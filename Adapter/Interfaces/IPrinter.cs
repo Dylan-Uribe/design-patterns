@@ -1,4 +1,4 @@
-﻿namespace Structural.AdapterPattern.Interfaces;
+﻿namespace Adapter.Interfaces;
 
 public interface IPrinter
 {

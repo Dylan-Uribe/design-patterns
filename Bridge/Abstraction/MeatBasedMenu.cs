@@ -1,6 +1,6 @@
-﻿using Structural.Bridge.Implementation;
+﻿using Bridge.Implementation;
 
-namespace Structural.Bridge.Abstraction;
+namespace Bridge.Abstraction;
 
 public class MeatBasedMenu(ICoupon coupon) : Menu(coupon)
 {
