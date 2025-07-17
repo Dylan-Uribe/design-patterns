@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns_Console.Singleton;
+﻿namespace Singleton;
 
 public static class Client
 {
