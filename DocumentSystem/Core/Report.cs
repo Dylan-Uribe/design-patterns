@@ -1,4 +1,4 @@
-﻿namespace Creational.DocumentSystem.Core;
+﻿namespace DocumentSystem.Core;
 
 public class Report : IDocument
 {

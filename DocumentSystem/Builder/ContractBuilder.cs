@@ -1,6 +1,6 @@
-﻿using Creational.DocumentSystem.Core;
+﻿using DocumentSystem.Core;
 
-namespace Creational.DocumentSystem.Builder;
+namespace DocumentSystem.Builder;
 
 public class ContractBuilder : IContractBuilder
 {

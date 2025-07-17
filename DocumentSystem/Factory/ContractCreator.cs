@@ -1,6 +1,6 @@
-﻿using Creational.DocumentSystem.Core;
+﻿using DocumentSystem.Core;
 
-namespace Creational.DocumentSystem.Factory;
+namespace DocumentSystem.Factory;
 
 public class ContractCreator : DocumentCreator
 {

@@ -1,4 +1,4 @@
-﻿namespace Creational.DocumentSystem.Builder;
+﻿namespace DocumentSystem.Builder;
 
 public class ContractDirector
 {

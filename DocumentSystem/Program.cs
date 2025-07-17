@@ -1,6 +1,6 @@
-﻿using Creational.DocumentSystem.Builder;
-using Creational.DocumentSystem.Core;
-using Creational.DocumentSystem.Factory;
+﻿using DocumentSystem.Builder;
+using DocumentSystem.Core;
+using DocumentSystem.Factory;
 
 var manager = DocumentManager.Instance;
 
