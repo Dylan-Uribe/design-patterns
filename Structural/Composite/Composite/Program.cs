@@ -17,5 +17,5 @@ folder2.AddComponent(file3);
 Console.WriteLine("Folder structure:");
 folder2.ShowDetails();
 
-Console.WriteLine("\nDeleting folder2:");
+Console.WriteLine("\nDeleting folder:");
 folder2.Delete();

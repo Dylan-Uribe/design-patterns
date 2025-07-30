@@ -30,7 +30,7 @@ public class File(string name) : IFileSystemComponent
 /// </summary>
 public class Folder(string name) : IFileSystemComponent
 {
-    private readonly List<IFileSystemComponent> _components = new List<IFileSystemComponent>();
+    private readonly List<IFileSystemComponent> _components = [];
 
     public void AddComponent(IFileSystemComponent component)
     {
