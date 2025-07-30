@@ -1,4 +1,4 @@
-﻿using ChainOfResponsability;
+﻿using ChainOfResponsibility;
 
 var level3SupportHandler = new Level3SupportHandler();
 var level2SupportHandler = new Level2SupportHandler();

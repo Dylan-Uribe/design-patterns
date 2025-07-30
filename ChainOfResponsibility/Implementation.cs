@@ -1,14 +1,14 @@
-﻿namespace ChainOfResponsability;
+﻿namespace ChainOfResponsibility;
 
 public interface IHandler
 {
     void SetNext(IHandler handler);
-    void HandleTicket(Ticket request);
+    void HandleTicket(Ticket ticket);
 }
 
 public abstract class HandlerBase : IHandler
 {
-    private IHandler _nextHandler;
+    private IHandler? _nextHandler;
 
     public void SetNext(IHandler handler)
     {
@@ -76,7 +76,7 @@ public class Level3SupportHandler : HandlerBase
 
 public class Ticket
 {
-    public Severity Severity { get; set; }
+    public Severity Severity { get; init; }
 }
 
 public enum Severity
