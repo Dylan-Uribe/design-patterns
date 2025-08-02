@@ -1,8 +1,9 @@
 ﻿using Command;
 
+var commandManager = new CommandManager();
 var repository = new EmployeeManagerManagerRepository();
 
-CommandManager.Invoke(
+commandManager.Invoke(
     new AddEmployeeToManagerList(
         repository,
         1,
@@ -11,7 +12,10 @@ CommandManager.Invoke(
 );
 repository.DataStore();
 
-CommandManager.Invoke(
+commandManager.Undo();
+repository.DataStore();
+
+commandManager.Invoke(
     new AddEmployeeToManagerList(
         repository,
         1,
@@ -20,12 +24,15 @@ CommandManager.Invoke(
 );
 repository.DataStore();
 
-CommandManager.Invoke(
+commandManager.Invoke(
     new AddEmployeeToManagerList(
         repository,
         2,
         new Employee(333, "Alice Smith")
     )
 );
+repository.DataStore();
+
+commandManager.UndoAll();
 repository.DataStore();
 

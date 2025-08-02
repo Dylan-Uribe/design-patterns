@@ -78,6 +78,7 @@ public interface ICommand
 {
     void Execute();
     bool CanExecute();
+    void Undo();
 }
 
 /// <summary>
@@ -108,18 +109,45 @@ public class AddEmployeeToManagerList(
 
         employeeManagerRepository.Add(managerId, employee);
     }
+
+    public void Undo()
+    {
+        if (employee is null)
+        {
+            return;
+        }
+        employeeManagerRepository.Remove(managerId, employee);
+    }
 }
 
 /// <summary>
 /// Invoker
 /// </summary>
-public abstract class CommandManager
+public class CommandManager
 {
-    public static void Invoke(ICommand command)
+    private readonly Stack<ICommand> _commandHistory = [];
+    public void Invoke(ICommand command)
     {
         if (command.CanExecute())
         {
             command.Execute();
+            _commandHistory.Push(command);
+        }
+    }
+
+    public void Undo()
+    {
+        if(_commandHistory.Any())
+        {
+            _commandHistory.Pop()?.Undo();
+        }
+    }
+    
+    public void UndoAll()
+    {
+        while (_commandHistory.Any())
+        {
+            _commandHistory.Pop()?.Undo();
         }
     }
 }
