@@ -29,31 +29,22 @@ public interface IEmployeeManagerRepository
 
 public class EmployeeManagerManagerRepository : IEmployeeManagerRepository
 {
-    private readonly List<Manager> _managers = [];
-    private readonly List<Employee> _employees = [];
+    private readonly List<Manager> _managers = 
+    [
+        new (1, "Dylan"),
+        new (2, "Werner")
+    ];
 
     public void Add(int managerId, Employee employee)
     {
         var manager = _managers.FirstOrDefault(m => m.Id == managerId);
-        if (manager == null)
-        {
-            manager = new Manager(managerId, 
-                $"{managerId} " +
-                $"{Guid.NewGuid().ToString()[..4]}");
-            _managers.Add(manager);
-        }
-        manager.Employees.Add(employee);
-        _employees.Add(employee);
+        manager?.Employees.Add(employee);
     }
 
     public void Remove(int managerId, Employee employee)
     {
         var manager = _managers.FirstOrDefault(m => m.Id == managerId);
-        if (manager is not null)
-        {
-            manager.Employees.Remove(employee);
-            _employees.Remove(employee);
-        }
+        manager?.Employees.Remove(employee);
     }
 
     public bool HasEmployee(int managerId, int employeeId)
@@ -122,9 +113,9 @@ public class AddEmployeeToManagerList(
 /// <summary>
 /// Invoker
 /// </summary>
-public class CommandManager
+public abstract class CommandManager
 {
-    public void Invoke(ICommand command)
+    public static void Invoke(ICommand command)
     {
         if (command.CanExecute())
         {
