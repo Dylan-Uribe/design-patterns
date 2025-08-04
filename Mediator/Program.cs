@@ -10,3 +10,7 @@ teamChatRoom.Register(kenneth);
 teamChatRoom.Register(john);
 steven.Send("Hello everyone!");
 teamChatRoom.Send("kenneth", "Hello Steven!");
+
+kenneth.Send("John", "Hello John!");
+
+kenneth.SendTo<Lawyer>("Hello lawyers!");
